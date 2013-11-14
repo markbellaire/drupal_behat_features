@@ -21,7 +21,16 @@ and how it should work, and only then implement this behavior in software.
 HELP WITH INSTALLATION
 ----------------------
 
-If your clone of this repo does not work, then here are the steps to re-install Behat.
+If you do not know how to install Behat, then here are the steps to help you out!
+
+1. Download the composer.phar file
+$ curl -sS https://getcomposer.org/installer | php
+
+2. Download dependencies using the composer.phar executable
+$ php composer.phar install
+
+3. Initiate Behat
+$ bin/behat --init
 
 ABOUT DRUPAL
 ------------

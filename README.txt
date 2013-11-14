@@ -2,11 +2,26 @@
 CONTENTS OF THIS FILE
 ---------------------
 
+ * About Behat
+ * Help with installation
  * About Drupal
  * Configuration and features
  * Installation profiles
  * Appearance
  * Developing for Drupal
+
+ABOUT BEHAT
+-----------
+
+Behat is an open source behavior-driven development framework for PHP 5.3 and
+5.4. What is behavior-driven development, you ask? It’s the idea that you start
+by writing human-readable sentences that describe a feature of your application
+and how it should work, and only then implement this behavior in software.
+
+HELP WITH INSTALLATION
+----------------------
+
+If your clone of this repo does not work, then here are the steps to re-install Behat.
 
 ABOUT DRUPAL
 ------------

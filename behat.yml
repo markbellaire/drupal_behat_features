@@ -5,6 +5,13 @@ default:
     Behat\MinkExtension\Extension:
       goutte: ~
       selenium2: ~
-      base_url: http://git6site.devdrupal.org/
+      base_url: http://drupal732.ftw/
     Drupal\DrupalExtension\Extension:
       blackbox: ~
+      api_driver: drush
+      drush:
+        root: /Users/markbellaire/Sites/work/drupal732
+      selectors:
+        message_selector: ".messages"
+        error_message_selector: ".messages"
+        success_message_selector: ".messages"
